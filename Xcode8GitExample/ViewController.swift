@@ -17,6 +17,10 @@ class ViewController: NSViewController {
         
         // additional comment!
     }
+    
+    func example(p1: Int, p2: Int) -> Int {
+        return p1 + p2
+    }
 
     override var representedObject: Any? {
         didSet {
